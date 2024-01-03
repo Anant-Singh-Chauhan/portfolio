@@ -1,13 +1,13 @@
 import './App.css';
 import { PortfolioColors } from './commons/portfolioColors';
+import Header from './components/header/Header';
+import ProfileSummary from './components/profileSummary/ProfileSummary';
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor: PortfolioColors.algae}}>
-
-      <header className="App-header">
-     
-      </header>
+    <div className="App" >
+      <Header/>
+      <ProfileSummary/>
     </div>
   );
 }

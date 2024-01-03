@@ -1,0 +1,17 @@
+.portfolioHeader,
+.routesDiv {
+  display: flex;
+  height: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.routes{
+    margin-inline: 0.2rem;
+}
+.ascLogo {
+  height: 3rem;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode:color-dodge;
+}

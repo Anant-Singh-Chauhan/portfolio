@@ -1,0 +1,46 @@
+.profileSummary{
+    display: flex;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.avatar{
+    border: 2px solid white;
+    border-radius: 1rem;
+    height: fit-content;
+    align-self: center;
+}
+
+.avatar img{
+    mix-blend-mode: color-dodge;
+}
+
+.summary{
+    margin: 1rem;
+    border: 2px solid white;
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
+
+.whatIKnow{
+    border: 2px solid white;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.whatIKnow img{
+    width:10%;
+    mix-blend-mode:color-dodge;
+    border-radius: 1rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}

@@ -1,0 +1,15 @@
+.whiteRoundedBorder{
+    border: 2px solid white;
+    border-radius: 1rem;
+    
+}
+
+.m1p1{
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+}
+
+.d-flex-row{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,17 @@
+.workAlertDiv{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+    justify-content: space-evenly;
+}
+
+.work{
+    border: 2px solid white;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    color: aliceblue;
+}

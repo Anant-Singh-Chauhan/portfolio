@@ -1,10 +1,9 @@
 import React from 'react'
-import avatarImg from '../../assests/avatar.jpg';
-
+import {avatar} from "../../assests/images/images";
 export default function ProfileAvatar() {
   return (
     <div className='avatar'>
-        <img src={avatarImg} alt="avatarImg" />
+        <img src={avatar} alt="avatarImg" />
     </div>
     
   )

@@ -3,6 +3,7 @@ import WorkAlert from './WorkAlert'
 import './experience.css'
 import WorkTimeline from './WorkTimeline'
 import WorkDetails from './WorkDetails'
+import masterData from '../../commons/masterData/masterData'
 
 export default function Experience() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import ascLogo from "../../assests/asc_logo_1024x682.jpg";
 import "./header.css";
+import {ascLogo} from '../../assests/images/images';
 
 export default function Header() {
   return (

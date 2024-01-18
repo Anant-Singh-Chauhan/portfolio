@@ -1,9 +1,59 @@
-import React from 'react'
+import React, { useState } from "react";
+import OnJobProject from "./OnJobProject";
 
-export default function WorkDetails() {
+export default function WorkDetails({ job }) {
+  const [activeProjectIndex, setActiveProjectIndex] = useState(0);
+
+  function onClickNext() {
+    let maxLength = job.workContributions.length;
+    if (activeProjectIndex < maxLength - 1)
+      setActiveProjectIndex(activeProjectIndex + 1);
+  }
+
+  function onClickPrevious() {
+    if (activeProjectIndex > 0) setActiveProjectIndex(activeProjectIndex - 1);
+  }
   return (
-    <div className='whiteRoundedBorder m1p1'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis non, alias hic veritatis perferendis repellat iste optio natus adipisci exercitationem voluptate. Numquam pariatur ad quasi deserunt adipisci possimus error porro saepe quaerat excepturi! Ea dicta, autem ratione maxime velit inventore porro perferendis, iusto ut corporis illum ipsa! Suscipit quod inventore cupiditate? Illum hic tempora consectetur! Nisi similique corporis magnam optio officiis. Adipisci corrupti labore neque! Temporibus nam eligendi doloribus pariatur numquam nobis eum quam deserunt nihil, ipsa rerum in quidem eaque exercitationem placeat eius vel sint accusantium unde! Iste quibusdam itaque voluptates pariatur harum sint suscipit? Eius debitis harum blanditiis!
+    <div className="workDetails whiteRoundedBorder m1p1">
+      <div className="workTitle">
+        <div>{job.designation}</div>
+        <div>{" @ " + job.companyName}</div>
+      </div>
+      <div>{job.duration}</div>
+      <div >
+        <h4>On-Job Projects</h4>
+
+        <OnJobProject project={job.workContributions[activeProjectIndex]} />
+
+        {/* on Job Project Navigation  */}
+        <div className="onJob_nav">
+          {/* Prev Btn  */}
+
+          <div
+            className="onJob_nav_btns"
+            onClick={() => {
+              onClickPrevious();
+            }}
+          >
+            <p>&larr;</p>
+          </div>
+          <div className="navChilds">
+            {job.workContributions.map((e,index) => (
+              <div key={e.projectTitle} className={index === activeProjectIndex?"onJob_nav_child active": "onJob_nav_child"}></div>
+            ))}
+          </div>
+          {/* next Btn  */}
+
+          <div
+            className="onJob_nav_btns"
+            onClick={() => {
+              onClickNext();
+            }}
+          >
+            <p>&rarr;</p>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }

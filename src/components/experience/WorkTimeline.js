@@ -1,9 +1,18 @@
 import React from 'react'
 
-export default function () {
+export default function WorkTimeline({experiences, activeJob, onChangeActiveJob}) {
   return (
-    <div className='whiteRoundedBorder m1p1'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit id, iste dolore repellat asperiores, laboriosam doloremque vel ea dicta animi maxime laborum voluptatem. Quidem, soluta accusantium nesciunt nemo ab libero sequi! Dolor iste tempore, eligendi quibusdam error laudantium quia voluptatum quas explicabo ducimus provident aliquid! Perferendis eum, eligendi at voluptates placeat et aut rem quo obcaecati numquam eaque, architecto excepturi voluptatem eveniet magnam veritatis itaque dolore aspernatur nisi vel iure. Ullam error suscipit eligendi asperiores et excepturi mollitia non, nemo quis ea rerum reprehenderit? Nemo eaque laboriosam deleniti adipisci iste omnis velit rerum soluta, aliquid magnam maxime laudantium reprehenderit!
+    <div className='workTimeline m1p1'>
+       {
+        experiences.map(element=>
+          <div>
+            <div key={element.jobId} className={activeJob === element.jobId?"timeline_detail active":"timeline_detail"} onClick={()=>{onChangeActiveJob(element.jobId)}}>
+              <h5>{element.companyName}</h5>
+            </div>
+          </div>
+        )
+       }
     </div>
   )
 }
+

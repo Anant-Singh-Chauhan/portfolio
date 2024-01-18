@@ -3,10 +3,10 @@
     Created : Jan 07, 2024
 */
 
-let masterData;
-export default masterData = {
-  experiences: [
+
+const Experiences = [
     {
+        jobId: "3",
         companyName: "Nitara (GormalOne)",
         designation: ".Net Developer",
         duration: "August 2023 - Present",
@@ -25,15 +25,11 @@ export default masterData = {
                 "Led to fast rendering and smoother animations, adding on to user experience.",
               ],
             },
-            {
-              projectTitle: "Dhruv APS",
-              projectContributions: [
-                "Worked on implementing SPA, being built to help users in Planning and scheduling of various resources and tasks at hand, for increasing productivity.",
-              ],
-            },
+            
         ],
       },
     {
+      jobId: "2",
       companyName: "Dhruv Technology Solutions",
       designation: "Software Engineer",
       duration: "January 2022 - August 2023",
@@ -63,6 +59,7 @@ export default masterData = {
       ],
     },
     {
+      jobId:"1",
       companyName: "Think Gas",
       designation: "Graduate Engineering Trainee",
       duration: "September 2021 - December 2021",
@@ -73,5 +70,7 @@ export default masterData = {
         },
       ],
     },
-  ],
-};
+  ];
+
+
+export {Experiences};

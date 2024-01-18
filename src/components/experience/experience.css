@@ -1,17 +1,84 @@
-.workAlertDiv{
-    display: flex;
-    flex-direction: row;
-    border: 2px solid white;
-    border-radius: 1rem;
-    margin: 1rem 1rem;
-    padding: 0.5rem 0.5rem;
-    justify-content: space-evenly;
+.workAlertDiv {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  border-radius: 1rem;
+  margin: 1rem 1rem;
+  padding: 0.5rem 0.5rem;
+  justify-content: space-evenly;
 }
 
-.work{
+.work {
+  border: 2px solid white;
+  border-radius: 1rem;
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+  color: aliceblue;
+}
+
+.timeline_detail {
+  border-left: 1px solid white;
+  padding: 0.5rem 0.5rem;
+  margin: 0rem 0.5rem;
+  width: 10vw;
+}
+
+.timeline_detail.active {
+  border-left: 3px solid teal;
+}
+
+.timeline_detail.active h5 {
+  color: teal;
+}
+
+.timeline_detail:hover {
+  background-color: rgba(116, 95, 234, 0.3);
+}
+
+.workDetails{
+    width: 60vw;
+}
+
+.workTitle {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  justify-content: space-between;
+}
+
+.onJob_project{
+    height: 20vh;
+}
+
+/*-- On Job Nav --*/
+.onJob_nav, .onJob_nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.onJob_nav{
+    margin: 3rem 1rem;
+    height: 0.25rem;
+    justify-content: space-between;
+
+}
+
+.onJob_nav_btns{
+    border: 1px solid white;
+    padding-inline: 1rem;
+}
+
+.onJob_nav_btns:hover{
+    background-color: teal;
+}
+
+.onJob_nav_child{
+    margin: 0 0.25rem;
+    padding: 0.25rem 0.25rem;
     border: 2px solid white;
-    border-radius: 1rem;
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
-    color: aliceblue;
+}
+
+.onJob_nav_child.active{
+    background-color: whitesmoke;
 }

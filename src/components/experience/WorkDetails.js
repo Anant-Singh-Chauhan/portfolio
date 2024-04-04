@@ -13,6 +13,9 @@ export default function WorkDetails({ job }) {
   function onClickPrevious() {
     if (activeProjectIndex > 0) setActiveProjectIndex(activeProjectIndex - 1);
   }
+  
+  // need to reset {activeProjectIndex} on builds
+  // of this component
   return (
     <div className="workDetails whiteRoundedBorder m1p1">
       <div className="workTitle">
@@ -20,7 +23,7 @@ export default function WorkDetails({ job }) {
         <div>{" @ " + job.companyName}</div>
       </div>
       <div>{job.duration}</div>
-      <div >
+      <div>
         <h4>On-Job Projects</h4>
 
         <OnJobProject project={job.workContributions[activeProjectIndex]} />
@@ -38,8 +41,15 @@ export default function WorkDetails({ job }) {
             <p>&larr;</p>
           </div>
           <div className="navChilds">
-            {job.workContributions.map((e,index) => (
-              <div key={e.projectTitle} className={index === activeProjectIndex?"onJob_nav_child active": "onJob_nav_child"}></div>
+            {job.workContributions.map((e, index) => (
+              <div
+                key={e.projectTitle}
+                className={
+                  index === activeProjectIndex
+                    ? "onJob_nav_child active"
+                    : "onJob_nav_child"
+                }
+              ></div>
             ))}
           </div>
           {/* next Btn  */}

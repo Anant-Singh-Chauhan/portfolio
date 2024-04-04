@@ -67,10 +67,13 @@
 .onJob_nav_btns{
     border: 1px solid white;
     padding-inline: 1rem;
+    transition: ease-in-out 200ms;
+
 }
 
 .onJob_nav_btns:hover{
     background-color: teal;
+    border-radius: 1rem;
 }
 
 .onJob_nav_child{

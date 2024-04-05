@@ -3,3 +3,8 @@
     background-color: #778DA9;
 }
 
+.App{
+    max-width: 1200px;
+    margin: auto;
+    padding : 2rem 2rem;
+}

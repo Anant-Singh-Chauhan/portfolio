@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15
+}
+
 body {
-    background-color: #1B263B;
+    /* background-color: #1B263B; */
+    background-color: #1d1d20;
+    color: #d1d1d1;
+    font-family: "Reddit Mono", monospace;
+
 }

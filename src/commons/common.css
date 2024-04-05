@@ -13,3 +13,8 @@
     display: flex;
     flex-direction: row;
 }
+
+.border-1-1-solid{
+    border: 1px solid white;
+    border-radius: 1rem;
+}

@@ -8,7 +8,7 @@ import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div className="App" >
+    <div className="App border-1-1-solid" >
       <Header/>
       <ProfileSummary/>
       <Experience/>

@@ -1,13 +1,9 @@
 .projectsDiv {
-  /* height: 35vh; */
   justify-content: space-between;
 }
 
 .project_menu {
   width: 25%;
-  /* border-left: 1px solid white; */
-  /* border-top: 1px solid white; */
-  /* border-image: linear-gradient(to right, white 50%, transparent 50%) 100% 1; */
 }
 
 .project_menu_item {
@@ -17,9 +13,9 @@
   transition: ease-in-out 200ms;
 }
 
-.project_menu_item.active{
-    border-left: 1px solid;
-    border-bottom: 2px solid;
+.project_menu_item.active {
+  border-left: 1px solid;
+  border-bottom: 2px solid;
 }
 
 .project_menu_item:hover {
@@ -30,28 +26,38 @@
 .project_details {
   padding: 1rem;
   width: 70%;
+  height: 18rem;
   color: white;
   transition: ease-in-out 200ms;
 }
 
 .project_title {
-  font-style: underline;
+  justify-content: space-between;
+  margin-inline: 1rem;
+
 }
 
 .project_action_div {
-    width: 50%;
-    justify-content: space-between;
-    margin: 1rem 2rem;
+  justify-content: space-between;
+  margin: 1rem 1rem;
 }
 
-.project_action_item{
-    text-decoration: none;
-    color: #d1d1d1;
-    border-bottom: 2px solid white ;
-    cursor: pointer;
-    
+.project_action_item {
+  text-decoration: none;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin-inline-start: 1rem;
 }
 
-.toolsUsed{
-    margin: 1.5rem 2rem;
+.project_action_item path {
+  fill: #d1d1d2;
+}
+
+.project_action_item:hover path {
+  fill: aqua;
+}
+
+.toolsUsed {
+  margin: 1.5rem 2rem;
 }

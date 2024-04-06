@@ -1,11 +1,22 @@
 import React from "react";
-import { html_logo, css_logo, js_logo, csharp_logo, react_logo, node_logo, express_logo, flutter_logo, dotNet_logo, dart_logo
+import {
+  html_logo,
+  css_logo,
+  js_logo,
+  csharp_logo,
+  react_logo,
+  node_logo,
+  express_logo,
+  flutter_logo,
+  dotNet_logo,
+  dart_logo,
 } from "../../assests/images/images";
+import SectionTitleWrapper from "../helper/SectionTitleWrapper";
 export default function WhatIKnow() {
   return (
-    <div className="whatIKnow">
-      <h3>What I Know...</h3>
-      <div>
+    <>
+      <SectionTitleWrapper titleText={"What I'm good at!..."}/>
+      <div className="whatIKnow">
         <img src={html_logo} alt="html_logo" />
         <img src={css_logo} alt="css_logo" />
         <img src={js_logo} alt="js_logo" />
@@ -17,6 +28,6 @@ export default function WhatIKnow() {
         <img src={dotNet_logo} alt="dotNet_logo" />
         <img src={dart_logo} alt="dart_logo" />
       </div>
-    </div>
+    </>
   );
 }

@@ -1,3 +1,24 @@
 .footerDiv{
-    height: 6vh;
+    
+}
+
+.footer_text{
+    /* margin-inline: auto; */
+    text-align: center;
+    margin: auto 1rem;
+}
+
+.footer_images{
+    justify-content: center;
+}
+
+.footer_images img{
+    /* height: 5rem; */
+    margin: 1rem;
+
+    width:10%;
+    /* mix-blend-mode:color-dodge; */
+    border-radius: 1rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }

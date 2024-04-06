@@ -1,5 +1,5 @@
 .projectsDiv {
-  height: 35vh;
+  /* height: 35vh; */
   justify-content: space-between;
 }
 
@@ -28,7 +28,8 @@
 }
 
 .project_details {
-  width: 60%;
+  padding: 1rem;
+  width: 70%;
   color: white;
   transition: ease-in-out 200ms;
 }

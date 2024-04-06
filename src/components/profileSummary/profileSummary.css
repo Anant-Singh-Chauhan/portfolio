@@ -26,21 +26,23 @@
 }
 
 .whatIKnow{
-    border: 2px solid white;
-    border-radius: 1rem;
+    /* border: 2px solid white; */
+    /* border-radius: 1rem; */
 
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding: 2rem 2rem;
     justify-content: space-between;
     align-items: center;
     color: white;
+    flex-wrap: wrap;
 }
 
 .whatIKnow img{
     width:10%;
+    margin: 0rem 1rem;
     mix-blend-mode:color-dodge;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     aspect-ratio: 3/2;
     object-fit: contain;
 }

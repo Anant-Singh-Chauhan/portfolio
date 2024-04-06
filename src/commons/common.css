@@ -1,20 +1,84 @@
-.whiteRoundedBorder{
-    border: 2px solid white;
-    border-radius: 1rem;
-    
+.whiteRoundedBorder {
+  border: 2px solid white;
+  border-radius: 1rem;
 }
 
-.m1p1{
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
+.m1p1 {
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
 }
 
-.d-flex-row{
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.border-1-1-solid {
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+.half-border {
+  position: relative;
+  /* width: 200px; /* Adjust width as needed 
+    height: 100px; Adjust height as needed */
+  border: 2px solid transparent; /* Transparent border to reserve space for the border */
+}
+
+.half-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-top: 2px solid #000; /* Adjust color and width as needed */
+}
+
+.half-a-border-on-top {
+  border-style: solid; /* Required for border-image */
+  border-image-source: linear-gradient(
+    to left bottom,
+    #1d1d20 50%,
+    #d1d1d1 50%
+  ); /* Adjust colors and direction as needed */
+  border-image-slice: 5; 
+  border-image-repeat: stretch; 
+  /* border-image-width: 0 0 2px 2px; */
+  border-image-width: 0 0 2px 2px;
+  border-radius: 10px;
+}
+.half-a-border-on-left {
+  border-top: 2px solid;
+  border-image: linear-gradient(to bottom, #d1d1d2 50%, transparent 50%) 100% 1;
+}
+
+
+.section-title {
     display: flex;
-    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 0rem 1rem;
+    width: 95%;
+    font-size: clamp(26px, 5vw);
+    white-space: nowrap;
 }
 
-.border-1-1-solid{
-    border: 1px solid white;
-    border-radius: 1rem;
+.section-title::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -5px;
+    width: 100rem;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #d1d1d2;
 }
+
+/* .horzdivider{
+    padding: 1rem 1rem;
+    width: 75%;
+    border-bottom: 2px dashed white;
+} */
+

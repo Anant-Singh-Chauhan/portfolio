@@ -9,22 +9,21 @@
 }
 
 .work {
-  border: 2px solid white;
-  border-radius: 1rem;
   margin: 1rem 1rem;
   padding: 1rem 1rem;
   color: aliceblue;
 }
 
 .timeline_detail {
-  border-left: 1px solid white;
+  border-right: 1px solid white;
   padding: 0.5rem 0.5rem;
   margin: 0rem 0.5rem;
-  width: 10vw;
+  width: 15vw;
+  font-size: larger;
 }
 
 .timeline_detail.active {
-  border-left: 3px solid teal;
+  border-right: 4px solid teal;
 }
 
 .timeline_detail.active h5 {

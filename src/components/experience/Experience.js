@@ -4,6 +4,7 @@ import "./experience.css";
 import WorkTimeline from "./WorkTimeline";
 import WorkDetails from "./WorkDetails";
 import { Experiences } from "../../commons/masterData/masterData";
+import SectionTitleWrapper from "../helper/SectionTitleWrapper";
 
 export default function Experience() {
   const [activeJob, setActiveJob] = useState(3);
@@ -14,11 +15,12 @@ export default function Experience() {
     setActiveJob(aj);
   }
   return (
-    <div>
+    <>
       {/* //TODO :  WORK ALERT BANNER */}
       {/* <WorkAlert/> */}
+      <SectionTitleWrapper titleText={"Where I've Worked!..."}/>
       <div className="work">
-        <h3>Where I've Worked!!</h3>
+
         <div className="d-flex-row">
           <WorkTimeline
             experiences={Experiences}
@@ -30,6 +32,6 @@ export default function Experience() {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }

@@ -24,5 +24,9 @@ export {default as flutter_logo} from './tech_icons/flutter.jpg';
 export {default as dart_logo} from './tech_icons/dart.jpg';
 export {default as dotNet_logo} from './tech_icons/dotNet.jpg';
 
+// collabs
+export {default as hancock_logo} from './collabs/hancock.png';
+export {default as siemens_logo} from './collabs/siemens.png';
+
 
 

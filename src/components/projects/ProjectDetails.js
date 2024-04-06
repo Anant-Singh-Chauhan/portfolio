@@ -5,7 +5,7 @@ import { SelfProjects as PROJECTS } from "../../commons/masterData/masterData";
 export default function ProjectDetails() {
   const { selectedProjectId } = useContext(ProjectContext);
   return (
-    <div className="project_details">
+    <div className="project_details whiteRoundedBorder">
       {PROJECTS.filter((element) => element.id == selectedProjectId).map(
         (prj) => (
           <div key={prj.id}>

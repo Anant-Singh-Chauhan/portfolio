@@ -9,10 +9,16 @@ html {
     line-height: 1.15
 }
 
+/* COLOR CONSTANTS */
+:root{
+    --main-text: #d1d1d1;
+    --background: #1d1d20;
+    /* --highlight:  */
+}
+
 body {
-    /* background-color: #1B263B; */
-    background-color: #1d1d20;
-    color: #d1d1d1;
+    background-color: var(--background);
+    color: var(--main-text);
     font-family: "Reddit Mono", monospace;
 
 }

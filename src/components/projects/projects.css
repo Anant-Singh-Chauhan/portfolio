@@ -7,7 +7,7 @@
 }
 
 .project_menu_item {
-  color: white;
+  color: var(--main-text);
   margin: 0.5rem;
   padding: 0.5rem;
   transition: ease-in-out 200ms;
@@ -16,6 +16,7 @@
 .project_menu_item.active {
   border-left: 1px solid;
   border-bottom: 2px solid;
+  border-radius: 0.5rem;
 }
 
 .project_menu_item:hover {

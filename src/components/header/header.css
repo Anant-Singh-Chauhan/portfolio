@@ -25,10 +25,14 @@
 }
 
 .ascLogo {
+  border: px solid var(--primary-text);
+  border-radius: 0.5rem;
+}
+
+.ascLogo img{
   height: 3rem;
   aspect-ratio: 3/2;
   object-fit: contain;
-  mix-blend-mode: color-dodge;
   transition: ease-in-out 500ms;
 }
 

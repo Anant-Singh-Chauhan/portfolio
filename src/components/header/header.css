@@ -7,11 +7,14 @@
 }
 
 .routes {
+  text-decoration: none;
+  color: var(--primary-text);
   margin-inline: 0.5rem;
   border: 2px solid var(--primary-text);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   transition: ease-in-out 200ms;
+  cursor: default;
 }
 
 .routes:hover {

@@ -19,7 +19,7 @@
   padding: 0.5rem 0.0rem 0.5rem 0.5rem;
   margin: 0rem 0.5rem;
   width: 20vw;
-  font-size: larger;
+  font-size: large;
 }
 
 .timeline_detail .selectionLogo{
@@ -42,7 +42,8 @@
 }
 
 .timeline_detail:hover {
-  background-color: rgba(116, 95, 234, 0.3);
+  font-size:larger;
+  cursor: default;
   transition: ease-in-out 200ms;
 }
 

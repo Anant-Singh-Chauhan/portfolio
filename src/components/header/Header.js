@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import {ascLogo} from '../../assests/images/images';
+import Resume from '../../assests/Anant\'s_Resume_Apr24.pdf';
 
 export default function Header() {
   return (
@@ -9,8 +10,9 @@ export default function Header() {
         <img src={ascLogo} alt="ascLogo" className="ascLogo"/>
       </a>
       <div className="routesDiv">
-        <div className="routes">Resume</div>
-        <div className="routes">Contact</div>
+        <a className="routes"  href={Resume} down
+          target="_blank">Resume</a>
+        <a className="routes">Contact</a>
       </div>
     </header>
   );

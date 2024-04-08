@@ -1,32 +1,32 @@
 import React from "react";
-import {
-  html_logo,
-  css_logo,
-  js_logo,
-  csharp_logo,
-  react_logo,
-  node_logo,
-  express_logo,
-  flutter_logo,
-  dotNet_logo,
-  dart_logo,
-} from "../../assests/images/images";
+import { ReactComponent as HtmlLogo } from "../../assests/images/tech_icons_svg/htmlLogo.svg";
+import { ReactComponent as CssLogo } from "../../assests/images/tech_icons_svg/cssLogo.svg";
+import { ReactComponent as JsLogo } from "../../assests/images/tech_icons_svg/jsLogo.svg";
+import { ReactComponent as DotNetLLogo } from "../../assests/images/tech_icons_svg/dotNetLogo2.svg";
+import { ReactComponent as CsLogo } from "../../assests/images/tech_icons_svg/csLogo.svg";
+import { ReactComponent as AspLogo } from "../../assests/images/tech_icons_svg/aspLogo2.svg";
+import { ReactComponent as FlutterLogo } from "../../assests/images/tech_icons_svg/flutterLogo.svg";
+import { ReactComponent as DartLogo } from "../../assests/images/tech_icons_svg/dartLogo.svg";
+import { ReactComponent as ReactLogo } from "../../assests/images/tech_icons_svg/reactLogo.svg";
+import { ReactComponent as NodeLogo } from "../../assests/images/tech_icons_svg/nodeLogo.svg";
+import { ReactComponent as ExpressLogo } from "../../assests/images/tech_icons_svg/expressLogo.svg";
 import SectionTitleWrapper from "../helper/SectionTitleWrapper";
 export default function WhatIKnow() {
   return (
     <>
-      <SectionTitleWrapper titleText={"What I'm good at!..."}/>
+      <SectionTitleWrapper titleText={"What I'm good at!..."} />
       <div className="whatIKnow">
-        <img src={html_logo} alt="html_logo" />
-        <img src={css_logo} alt="css_logo" />
-        <img src={js_logo} alt="js_logo" />
-        <img src={csharp_logo} alt="csharp_logo" />
-        <img src={react_logo} alt="react_logo" />
-        <img src={node_logo} alt="node_logo" />
-        <img src={express_logo} alt="express_logo" />
-        <img src={flutter_logo} alt="flutter_logo" />
-        <img src={dotNet_logo} alt="dotNet_logo" />
-        <img src={dart_logo} alt="dart_logo" />
+        <HtmlLogo className="techIconsSvg" />
+        <CssLogo className="techIconsSvg" />
+        <JsLogo className="techIconsSvg" />
+        <ReactLogo className="techIconsSvg" />
+        <NodeLogo className="techIconsSvg" />
+        <DotNetLLogo className="techIconsSvg" />
+        <CsLogo className="techIconsSvg" />
+        <AspLogo className="techIconsSvg" />
+        <FlutterLogo className="techIconsSvg" />
+        <DartLogo className="techIconsSvg" />
+        <ExpressLogo className="techIconsSvg" id="expressLogo"/>
       </div>
     </>
   );

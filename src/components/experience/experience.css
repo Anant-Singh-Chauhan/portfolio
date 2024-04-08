@@ -20,18 +20,25 @@
   margin: 0rem 0.5rem;
   width: 20vw;
   font-size: large;
+  transition: ease-in-out 200ms;
 }
 
 .timeline_detail .selectionLogo{
   display: none;
+  transition: ease-in-out 200ms;
+
 }
 
 .timeline_detail.active {
   border-right: 4px solid var(--highlight);
+  transition: ease-in-out 200ms;
+
 }
 
 .timeline_detail.active h5 {
   color: var(--highlight);
+  transition: ease-in-out 200ms;
+
 }
 
 .timeline_detail.active .selectionLogo {
@@ -39,6 +46,8 @@
   width: 2rem;
   height: 2rem;
   fill: var(--highlight);
+  transition: ease-in-out 200ms;
+
 }
 
 .timeline_detail:hover {
@@ -50,6 +59,8 @@
 .timeline_detail_title{
   justify-content: space-between;
   align-items: center;
+  transition: ease-in-out 200ms;
+
 }
 
 .workDetails{

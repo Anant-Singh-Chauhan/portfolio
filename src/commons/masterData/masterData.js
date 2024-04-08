@@ -28,7 +28,7 @@ const Experiences = [
   },
   {
     jobId: "2",
-    companyName: "Dhruv Technology Solutions",
+    companyName: "Dhruv Tech. Solutions",
     designation: "Software Engineer",
     duration: "January 2022 - August 2023",
     workContributions: [

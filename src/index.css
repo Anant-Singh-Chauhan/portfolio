@@ -11,14 +11,15 @@ html {
 
 /* COLOR CONSTANTS */
 :root{
-    --main-text: #d1d1d1;
+    --primary-text: #d1d1d1;
+    --secondary-text: #d1d1d7;
     --background: #1d1d20;
-    /* --highlight:  */
+    --highlight: rgb(0,255,255);
 }
 
 body {
     background-color: var(--background);
-    color: var(--main-text);
+    color: var(--primary-text);
     font-family: "Reddit Mono", monospace;
 
 }

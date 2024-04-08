@@ -14,8 +14,8 @@
 }
 
 .project_menu_item.active {
-  border-left: 1px solid;
-  border-bottom: 2px solid;
+  border-left: 1px solid var(--highlight);
+  border-bottom: 2px solid var(--highlight);
   border-radius: 0.5rem;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .project_action_item:hover path {
-  fill: aqua;
+  fill: var(--highlight);
 }
 
 .toolsUsed {

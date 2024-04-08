@@ -6,12 +6,32 @@
   align-items: center;
 }
 
-.routes{
-    margin-inline: 0.2rem;
+.routes {
+  margin-inline: 0.5rem;
+  border: 2px solid var(--primary-text);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: ease-in-out 200ms;
 }
+
+.routes:hover {
+  transform: scale(1.1, 1.1);
+  color: var(--highlight);
+  border: 2px solid var(--highlight);
+  transition: ease-in-out 200ms;
+}
+
 .ascLogo {
   height: 3rem;
   aspect-ratio: 3/2;
   object-fit: contain;
-  mix-blend-mode:color-dodge;
+  mix-blend-mode: color-dodge;
+  transition: ease-in-out 500ms;
+}
+
+.ascLogo:hover {
+  transform: scale(1.1, 1.1);
+  border-color: var(--highlight);
+  border-radius: 5rem;
+  transition: ease-in-out 500ms;
 }

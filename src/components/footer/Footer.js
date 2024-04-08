@@ -4,7 +4,7 @@ import "./footer.css";
 
 export default function Footer() {
   return (
-    <div className="half-a-border-on-top m1p1 footerDiv">
+    <div className="whiteRoundedBorder m1p1 footerDiv">
       <div className="footer_text">
         During my career, I also had the chance to collaborate in different capacities with these great companies.
       </div>

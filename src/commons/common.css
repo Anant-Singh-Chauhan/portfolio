@@ -41,8 +41,8 @@
   border-style: solid; /* Required for border-image */
   border-image-source: linear-gradient(
     to left bottom,
-    #1d1d20 50%,
-    #d1d1d1 50%
+    var(--background) 50%,
+    var(--secondary-text) 50%
   ); /* Adjust colors and direction as needed */
   border-image-slice: 5; 
   border-image-repeat: stretch; 

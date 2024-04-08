@@ -8,7 +8,7 @@ const Profile={
 
 const Experiences = [
   {
-    jobId: "3",
+    jobId: 3,
     companyName: "Nitara (GormalOne)",
     designation: ".Net Developer",
     duration: "August 2023 - Present",
@@ -30,7 +30,7 @@ const Experiences = [
     ],
   },
   {
-    jobId: "2",
+    jobId: 2,
     companyName: "Dhruv Tech. Solutions",
     designation: "Software Engineer",
     duration: "January 2022 - August 2023",
@@ -60,7 +60,7 @@ const Experiences = [
     ],
   },
   {
-    jobId: "1",
+    jobId: 1,
     companyName: "Think Gas",
     designation: "Graduate Engineering Trainee",
     duration: "September 2021 - December 2021",

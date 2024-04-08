@@ -14,6 +14,8 @@ html {
     --primary-text: #d1d1d1;
     --secondary-text: #d1d1d7;
     --background: #1d1d20;
+    --primary-black:#000000;
+    --secondary-black:#444;
     --highlight: rgb(0,255,255);
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as SelectionLogo } from "../../assests/images/tech_icons/selectionLogo.svg";
+import { ReactComponent as SelectionLogo } from "../../assests/images/svgs/selectionLogo.svg";
 
 export default function WorkTimeline({
   experiences,

@@ -1,8 +1,8 @@
 import { React, useContext } from "react";
 import { ProjectContext } from "../../store/projects-context";
 import { SelfProjects as PROJECTS } from "../../commons/masterData/masterData";
-import { ReactComponent as GithubLogo } from "../../assests/images/tech_icons/githubLogo.svg";
-import { ReactComponent as LiveLogo } from "../../assests/images/tech_icons/liveLogo.svg";
+import { ReactComponent as GithubLogo } from "../../assests/images/svgs/githubLogo.svg";
+import { ReactComponent as LiveLogo } from "../../assests/images/svgs/liveLogo.svg";
 
 export default function ProjectDetails() {
   const { selectedProjectId } = useContext(ProjectContext);

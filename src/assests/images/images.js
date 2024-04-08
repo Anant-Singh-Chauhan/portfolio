@@ -28,6 +28,4 @@ export {default as dotNet_logo} from './tech_icons/dotNet.jpg';
 export {default as hancock_logo} from './collabs/hancock.png';
 export {default as siemens_logo} from './collabs/siemens.png';
 
-// links
-export {default as github_logo} from './tech_icons/githubLogo.svg';
 

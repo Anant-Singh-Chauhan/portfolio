@@ -3,7 +3,10 @@
     Created : Jan 07, 2024
 */
 const Profile={
-  mail:"eng.anant.schauhan21@gmail.com"
+  mail:"eng.anant.schauhan21@gmail.com",
+  profileName:"Anant Singh Chauhan",
+  profileSummary:"I'm a Software Engineer, specializing in crafting innovative solutions that drive business success. I've experience working in 'MES', 'Insurance' and 'AgriTech' domains. My superpowers include \'Getting Things Done!\' and \'Serving fault at Game Point\'.",
+  buildThingsFor:["Web","Mobile"]
 }
 
 const Experiences = [

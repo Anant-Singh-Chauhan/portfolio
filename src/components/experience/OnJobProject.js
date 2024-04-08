@@ -6,7 +6,7 @@ export default function OnJobProject({ project }) {
       <div>{project.projectTitle}</div>
       <ul>
         {project.projectContributions.map((cntrbtn) => (
-          <li>{cntrbtn}</li>
+          <li key={project.projectTitle+(Math.random()*100)}>{cntrbtn}</li>
         ))}
       </ul>
     </div>

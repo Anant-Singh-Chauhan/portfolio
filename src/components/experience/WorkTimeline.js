@@ -1,23 +1,24 @@
-import React from "react";
+import React, {useContext} from "react";
 import { ReactComponent as SelectionLogo } from "../../assests/images/svgs/selectionLogo.svg";
+import { Experiences as experiences } from "../../commons/masterData/masterData";
+import { ExperienceContext } from "../../store/experience-context";
 
 export default function WorkTimeline({
-  experiences,
-  activeJob,
-  onChangeActiveJob,
+
 }) {
+  const {selectedExperienceId,handleExperienceSelection} = useContext(ExperienceContext);
   return (
     <div className="workTimeline">
       {experiences.map((element) => (
         <div
           key={element.jobId}
           className={
-            activeJob === element.jobId
+            selectedExperienceId === element.jobId
               ? "timeline_detail active"
               : "timeline_detail"
           }
           onClick={() => {
-            onChangeActiveJob(element.jobId);
+            handleExperienceSelection(element.jobId);
           }}
         >
           <div className="d-flex-row timeline_detail_title">

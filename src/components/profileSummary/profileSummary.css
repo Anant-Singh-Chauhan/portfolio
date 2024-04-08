@@ -1,80 +1,98 @@
-.profileSummary{
-    display: flex;
-    padding: 2rem 2rem;
-    justify-content: space-between;
-    align-content: center;
-    margin: 20vh 0;
-    height: 90vh;
-
+.profileSummary {
+  display: flex;
+  padding: 2rem 2rem;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20vh 0;
+  height: 90vh;
 }
 
-.avatar{
-    border: 2px solid white;
-    border-radius: 2rem;
-    height: fit-content;
-    align-self: center;
+.avatar {
+  border: 2px solid white;
+  border-radius: 2rem;
+  height: fit-content;
+  align-self: center;
 }
 
-.avatar img{
-    mix-blend-mode: color-dodge;
+.avatar img {
+  mix-blend-mode: color-dodge;
 }
 
-.summary{
-    margin: 2rem 2rem;
-    color: white;
-    padding: 2rem 4rem 2rem 1rem;
-    border-radius: 1rem;
+.summary {
+  margin: 2rem 2rem;
+  color: white;
+  padding: 2rem 4rem 2rem 1rem;
+  border-radius: 1rem;
 }
 
-.profileName{
-    font-size: 2.5rem;
-    font-weight:600;
-    color: var(--primary-text);
-    text-align: left;
-    margin-block: 1rem;
-    margin-inline: 0 1rem;
-    color: var(--highlight);
+.profileName {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--primary-text);
+  text-align: left;
+  margin-block: 1rem;
+  margin-inline: 0 1rem;
+  color: var(--highlight);
 }
 
-.profileTagline{
-    font-size: 1.7rem;
-    font-weight:400;
-    opacity: 0.6;
-    transition: ease-in-out 10000ms;
+.profileTagline {
+  font-size: 1.7rem;
+  font-weight: 400;
+  opacity: 0.6;
+  transition: ease-in-out 10000ms;
 }
 
-.profileTagline span{
-    color: var(--highlight);
+.profileTagline span {
+  color: var(--highlight);
 }
 
-.profileDescription{
-    margin: 1rem 0;
-    font-size: 1.2rem;
+.profileDescription {
+  margin: 1rem 0;
+  font-size: 1.2rem;
 }
 
-.whatIKnow{
-    display: flex;
-    padding: 2rem 2rem;
-    justify-content: space-evenly;
-    align-items: center;
-    color: white;
-    flex-wrap: wrap;
-    row-gap: 1rem;
+#knowMore {
+  text-decoration: none;
+  color: var(--primary-text);
+  margin-inline: 0.5rem;
+  border: 2px solid var(--primary-text);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: ease-in-out 200ms;
+  cursor: default;
+  margin-left: 0;
+  margin-top: 1rem;
 }
 
-.techIconsSvg{
-    fill: var(--primary-text);
-    width: 6rem;
-    height: 5rem;
-    
+#knowMore:hover {
+  transform: scale(1.1, 1.1);
+  color: var(--highlight);
+  border: 2px solid var(--highlight);
+  transition: ease-in-out 200ms;
 }
 
-.techIconsSvg path{
-    fill: var(--primary-text);
-    stroke: var(--primary-text);
-    stroke-width: 0.1;
+.whatIKnow {
+  display: flex;
+  padding: 2rem 2rem;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+  row-gap: 1rem;
 }
 
-#expressLogo path{
-    stroke-width: 8;
+.techIconsSvg {
+  fill: var(--primary-text);
+  width: 6rem;
+  height: 5rem;
+}
+
+.techIconsSvg path {
+  fill: var(--primary-text);
+  stroke: var(--primary-text);
+  stroke-width: 0.1;
+}
+
+#expressLogo path {
+  stroke-width: 8;
 }

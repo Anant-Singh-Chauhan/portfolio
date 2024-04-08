@@ -26,9 +26,11 @@ export default function Summary() {
         </span>
       </h2>
       <p className="profileDescription">{Profile.profileSummary}</p>
-      <a className="routes knowMore" href="#whatIKnow">
-        Interested to know more?
-      </a>
+      <div className="d-flex-row">
+        <a id="knowMore" href="#whatIKnow">
+          Interested to know more?
+        </a>
+      </div>
     </div>
   );
 }

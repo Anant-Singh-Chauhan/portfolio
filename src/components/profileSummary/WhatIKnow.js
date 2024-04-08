@@ -20,7 +20,10 @@ export default function WhatIKnow() {
       <SectionTitleWrapper titleText={"What I'm good at!..."} />
       <div className="wrapper">
         <div className="cols">
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -34,7 +37,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -48,7 +54,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>{" "}
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -62,7 +71,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>{" "}
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -76,7 +88,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>{" "}
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -90,7 +105,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>{" "}
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -104,7 +122,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>{" "}
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -118,7 +139,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>{" "}
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -132,7 +156,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>{" "}
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -146,7 +173,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>{" "}
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -160,7 +190,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>{" "}
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -174,7 +207,10 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div
+            className="col"
+            onTouchStart={() => this.classList.toggle("hover")}
+          >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">
@@ -188,7 +224,7 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div className="col" onTouchStart={() => this.classList.toggle("hover")}>
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">

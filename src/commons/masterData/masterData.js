@@ -2,6 +2,9 @@
     Author : Anant Singh Chauhan
     Created : Jan 07, 2024
 */
+const Profile={
+  mail:"eng.anant.schauhan21@gmail.com"
+}
 
 const Experiences = [
   {
@@ -142,4 +145,4 @@ const SelfProjects = [
   },
 
 ];
-export { Experiences, SelfProjects };
+export { Experiences, SelfProjects, Profile };

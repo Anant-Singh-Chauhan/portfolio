@@ -3,7 +3,8 @@
     padding: 2rem 2rem;
     justify-content: space-between;
     align-content: center;
-    margin: 5rem 0;
+    margin: 20vh 0;
+    height: 90vh;
 
 }
 
@@ -20,7 +21,6 @@
 
 .summary{
     margin: 2rem 2rem;
-    /* border: 2px solid white; */
     color: white;
     padding: 2rem 4rem 2rem 1rem;
     border-radius: 1rem;

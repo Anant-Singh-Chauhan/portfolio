@@ -8,7 +8,7 @@ export default function Header() {
   const email = Profile.mail;
   return (
     <header className="portfolioHeader">
-      <a className="ascLogo">
+      <a className="ascLogo" href="#">
         <img src={ascLogo} alt="ascLogo" className="ascLogo"/>
       </a>
       <div className="routesDiv">

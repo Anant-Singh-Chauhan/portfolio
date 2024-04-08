@@ -17,7 +17,7 @@ export default function WhatIKnow() {
   return (
     <>
       <SectionTitleWrapper titleText={"What I'm good at!..."} />
-      <div className="whatIKnow"></div>
+      <div className="whatIKnow" id="whatIKnow"></div>
 
       <div className="wrapper">
         <div className="cols">

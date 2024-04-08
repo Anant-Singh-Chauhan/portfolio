@@ -58,10 +58,13 @@
   -webkit-box-align: center;
   align-items: center;
   position: relative;
-  margin: 0rem 1rem;
+  margin: 1rem 1rem;
   width: 95%;
   font-size: clamp(26px, 5vw);
   white-space: nowrap;
+  font-size: 1.5rem;
+  font-weight:400;
+  opacity: 0.6;
 }
 
 .section-title::after {

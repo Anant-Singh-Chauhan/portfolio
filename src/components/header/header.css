@@ -1,9 +1,18 @@
 .portfolioHeader,
 .routesDiv {
   display: flex;
-  height: 2rem;
+  /* height: 2rem; */
   justify-content: space-between;
   align-items: center;
+}
+
+.portfolioHeader {
+  position: sticky;
+  top: 0rem;
+  background-color: var(--primary-black);
+  z-index: 999;
+  /* height: 3rem; */
+  padding: 1rem 0rem;
 }
 
 .routes {
@@ -29,7 +38,7 @@
   border-radius: 0.5rem;
 }
 
-.ascLogo img{
+.ascLogo img {
   height: 3rem;
   aspect-ratio: 3/2;
   object-fit: contain;

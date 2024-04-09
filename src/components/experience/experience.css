@@ -16,29 +16,26 @@
 
 .timeline_detail {
   border-right: 1px solid white;
-  padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
   margin: 0rem 0.5rem;
   width: 20vw;
   font-size: large;
   transition: ease-in-out 200ms;
 }
 
-.timeline_detail .selectionLogo{
+.timeline_detail .selectionLogo {
   display: none;
   transition: ease-in-out 200ms;
-
 }
 
 .timeline_detail.active {
   border-right: 4px solid var(--highlight);
   transition: ease-in-out 200ms;
-
 }
 
 .timeline_detail.active h5 {
   color: var(--highlight);
   transition: ease-in-out 200ms;
-
 }
 
 .timeline_detail.active .selectionLogo {
@@ -47,69 +44,88 @@
   height: 2rem;
   fill: var(--highlight);
   transition: ease-in-out 200ms;
-
 }
 
 .timeline_detail:hover {
-  font-size:larger;
+  font-size: larger;
   cursor: default;
   transition: ease-in-out 200ms;
 }
 
-.timeline_detail_title{
+.timeline_detail_title {
   justify-content: space-between;
   align-items: center;
   transition: ease-in-out 200ms;
-
+  padding: 1rem 0;
 }
 
-.workDetails{
-    width: 60vw;
+.workDetails {
+  width: 60vw;
 }
 
+.workDuration {
+  padding: 0.5rem 0;
+  opacity: 0.6;
+}
+
+#onJobHeading {
+  text-align: center;
+}
 .workTitle {
   display: flex;
   flex-direction: row;
-  width: 40vw;
   justify-content: space-between;
+  align-items: center;
 }
 
-.onJob_project{
-    height: 20vh;
+.workTitle_designation {
+}
+
+.onJob_project {
+  height: 20vh;
+  padding: 1rem 1rem;
+}
+
+.onJob_project_title {
+  padding-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+.onJob_project_details {
+  padding: 0 0.5rem;
 }
 
 /*-- On Job Nav --*/
-.onJob_nav, .onJob_nav div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.onJob_nav,
+.onJob_nav div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.onJob_nav{
-    margin: 3rem 1rem;
-    height: 0.25rem;
-    justify-content: space-between;
-
+.onJob_nav {
+  margin: 3rem 1rem;
+  height: 0.25rem;
+  justify-content: space-between;
 }
 
-.onJob_nav_btns{
-    border: 1px solid white;
-    padding-inline: 1rem;
-    transition: ease-in-out 200ms;
-
+.onJob_nav_btns {
+  border: 1px solid white;
+  padding: 0.75rem 1rem;
+  transition: ease-in-out 200ms;
 }
 
-.onJob_nav_btns:hover{
-    background-color: var(--highlight);
-    border-radius: 1rem;
+.onJob_nav_btns:hover {
+  background-color: var(--highlight);
+  border-radius: 1rem;
 }
 
-.onJob_nav_child{
-    margin: 0 0.25rem;
-    padding: 0.25rem 0.25rem;
-    border: 2px solid white;
+.onJob_nav_child {
+  margin: 0 0.25rem;
+  padding: 0.25rem 0.25rem;
+  border: 2px solid white;
 }
 
-.onJob_nav_child.active{
-    background-color: whitesmoke;
+.onJob_nav_child.active {
+  background-color: whitesmoke;
 }

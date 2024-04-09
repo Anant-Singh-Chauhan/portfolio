@@ -18,8 +18,8 @@ export default function Experience() {
     <>
       {/* //TODO :  WORK ALERT BANNER */}
       {/* <WorkAlert/> */}
-      <SectionTitleWrapper titleText={"Where I've Worked!..."} />
       <ExperienceContext.Provider value={experienceCtxValue}>
+        <SectionTitleWrapper titleText={"Where I've Worked!..."} />
         <div className="work">
           <div className="d-flex-row">
             <WorkTimeline />

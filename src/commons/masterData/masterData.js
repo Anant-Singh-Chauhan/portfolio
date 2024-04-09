@@ -2,23 +2,32 @@
     Author : Anant Singh Chauhan
     Created : Jan 07, 2024
 */
-const Profile={
-  mail:"eng.anant.schauhan21@gmail.com",
-  profileName:"Anant Singh Chauhan",
-  profileSummary:"I'm a Software Engineer, specializing in crafting innovative solutions that drive business success. I've experience working in 'MES', 'Insurance' and 'AgriTech' domains. My superpowers include \'Getting Things Done!\' and \'Serving fault at Game Point\'.",
-  buildThingsFor:["Web","Mobile"],
-  github:"https://github.com/Anant-Singh-Chauhan",
-  linkedIn: "https://www.linkedin.com/in/anant-chauhan98/"
-
-}
+const Profile = {
+  mail: "eng.anant.schauhan21@gmail.com",
+  profileName: "Anant Singh Chauhan",
+  profileSummary:
+    "I'm a Software Engineer, specializing in crafting innovative solutions that drive business success. I've experience working in 'MES', 'Insurance' and 'AgriTech' domains. My superpowers include 'Getting Things Done!' and 'Serving fault at Game Point'.",
+  buildThingsFor: ["Web", "Mobile"],
+  github: "https://github.com/Anant-Singh-Chauhan",
+  linkedIn: "https://www.linkedin.com/in/anant-chauhan98/",
+};
 
 const Experiences = [
   {
     jobId: 3,
     companyName: "Nitara (GormalOne)",
-    designation: ".Net Developer",
+    designation: "Software Developer",
     duration: "August 2023 - Present",
     workContributions: [
+      {
+        projectTitle: "Nitara Farmer Web 2.0",
+        projectContributions: [
+          "Working on Migration from ASP.NET to REACT, with additional design and feature upgrades.",
+          "Expecting a reduced load by 15%, adding on to UX.",
+          "Identified and resolved critical software bugs, while efficiently implementing change requests to enhance system functionality and meet stakeholder requirements.",
+          ,
+        ],
+      },
       {
         projectTitle: "Nitara CDN",
         projectContributions: [
@@ -27,10 +36,11 @@ const Experiences = [
         ],
       },
       {
-        projectTitle: "Nitara Friend Migration",
+        projectTitle: "Nitara Farmer Mobile 2.0",
         projectContributions: [
-          "Migrated the app from KOTLIN to Flutter for improved compatibility on Android and iOS platforms.",
-          "Led to fast rendering and smoother animations, adding on to user experience.",
+          "Migrated the app from KOTLIN to FLUTTER for improved compatibility on Android and iOS platforms.",
+          "Lead a team of 4 to work on specific modules",
+          "Enhanced code Maintainability, Led to fast rendering and smoother animations, adding on to user experience.",
         ],
       },
     ],
@@ -74,8 +84,9 @@ const Experiences = [
       {
         projectTitle: "Raikot CGS",
         projectContributions: [
-          "Responsible for maintaining company assets in radius of 45 kms",
-          "",
+          "Owned responsibility for maintaining company assets in radius of 45 kms",
+          "Coonducted routine machinery inspections and maintained RCA reports for damages",
+          "Held sessions among town authorities and in various public gatherings to spread awareness about CNG and PNG."
         ],
       },
     ],
@@ -147,8 +158,7 @@ const SelfProjects = [
     buildYear: 2024,
     liveLink: "",
     githubLink: "",
-    toolsUsed: ["ReactJs", "NodeJs", "CSS", "ContextApi" ],
+    toolsUsed: ["ReactJs", "NodeJs", "CSS", "ContextApi"],
   },
-
 ];
 export { Experiences, SelfProjects, Profile };

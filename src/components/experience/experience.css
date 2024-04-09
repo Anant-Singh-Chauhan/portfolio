@@ -13,11 +13,13 @@
   padding: 1rem 1rem;
   color: aliceblue;
 }
-.work>.d-flex-row{
+.work > .d-flex-row {
   justify-content: space-between;
 }
 
-.workTimeline{
+.workTimeline {
+  display: flex;
+  flex-direction: column;
   width: 27%;
 }
 
@@ -69,12 +71,11 @@
   width: 73%;
   padding: 1rem;
   transition: ease-in-out 200ms;
-
 }
 
-.workDetails div, .workDetails ul{
+.workDetails div,
+.workDetails ul {
   transition: ease-in-out 200ms;
-
 }
 
 .workDuration {
@@ -145,7 +146,46 @@
   background-color: whitesmoke;
 }
 
-
 @media screen and (max-width: 720px) {
- 
+  .work{
+    padding: 0.5rem 1rem;
+  }
+
+  .work > .d-flex-row {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  .workTimeline {
+    flex-direction: row;
+    column-gap: 3rem;
+    justify-content: space-evenly;
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+
+  }
+
+  .timeline_detail {
+    border-bottom: 1px solid var(--secondary-text);
+    border-right: none;
+  }
+
+  .timeline_detail.active {
+    border-bottom: 4px solid var(--highlight);
+    border-right: none;
+
+  }
+
+  .timeline_detail.active .selectionLogo {
+    display: none;
+  }
+
+  .timeline_detail_title{
+    padding: 0.5rem 0;
+  }
+
+  .workDetails{
+    width: 100%;
+  }
 }

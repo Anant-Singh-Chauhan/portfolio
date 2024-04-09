@@ -17,7 +17,7 @@ export default function WorkDetails({ job }) {
   // need to reset {activeProjectIndex} on builds
   // of this component
   return (
-    <div className="workDetails whiteRoundedBorder m1p1">
+    <div className="workDetails whiteRoundedBorder">
       <div className="workTitle">
         <h2 className="workTitle_designation">{job.designation}</h2>
         <h4 className="workTitle_company">{" @ " + job.companyName}</h4>

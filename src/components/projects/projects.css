@@ -27,20 +27,23 @@
 .project_details {
   padding: 1rem;
   width: 70%;
-  height: 18rem;
+  min-height: 18rem;
   color: white;
   transition: ease-in-out 200ms;
 }
 
 .project_title {
   justify-content: space-between;
-  margin-inline: 1rem;
+  align-items: center;
+}
 
+.project_description{
+  padding: 1rem;
 }
 
 .project_action_div {
   justify-content: space-between;
-  margin: 1rem 1rem;
+  margin: 0rem 1rem;
 }
 
 .project_action_item {

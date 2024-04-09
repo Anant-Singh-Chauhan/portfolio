@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.72cef61e.css",
+    "main.js": "/portfolio/static/js/main.69746f4e.js",
+    "static/media/asc_logo_1024x682.jpg": "/portfolio/static/media/asc_logo_1024x682.081399545c19759587e8.jpg",
+    "static/media/Anant's_Resume_Apr24.pdf": "/portfolio/static/media/Anant's_Resume_Apr24.b2b2493c96fecd9c8de7.pdf",
+    "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.06e5ee0e2639fde61c11.jpg",
+    "static/media/siemens.png": "/portfolio/static/media/siemens.cf4d089c445b16599459.png",
+    "static/media/dotNetLogo2.svg": "/portfolio/static/media/dotNetLogo2.24534be055fb71e8559a9d8cbe14485c.svg",
+    "static/media/sqlServerLogo.svg": "/portfolio/static/media/sqlServerLogo.df6bd6fc58b756123c7b2c36753991b7.svg",
+    "static/media/expressLogo.svg": "/portfolio/static/media/expressLogo.198940719948b28f7b1207ca985c9edd.svg",
+    "static/media/mongoLogo.svg": "/portfolio/static/media/mongoLogo.584dc799734f6f91f9ddd97cbc36c533.svg",
+    "static/media/nodeLogo.svg": "/portfolio/static/media/nodeLogo.ffb99e4f2ff0cc419a08f0aca617527c.svg",
+    "static/media/reactLogo.svg": "/portfolio/static/media/reactLogo.b092ad79d6b9f2bf199975b337138927.svg",
+    "static/media/aspLogo2.svg": "/portfolio/static/media/aspLogo2.14475911aec80a1a5583cabe1ad7f8ec.svg",
+    "static/media/csLogo.svg": "/portfolio/static/media/csLogo.e0b9165a2b29b2a60e02786832b42626.svg",
+    "static/media/jsLogo.svg": "/portfolio/static/media/jsLogo.ddfdaa3341183c451ec095227fc0d328.svg",
+    "static/media/cssLogo.svg": "/portfolio/static/media/cssLogo.7f68dd972d58165b76e1bc2dd61e3825.svg",
+    "static/media/linkedInLogo.svg": "/portfolio/static/media/linkedInLogo.847827ffa4400bcbf89dc160a21daef0.svg",
+    "static/media/githubLogo.svg": "/portfolio/static/media/githubLogo.ddebc412a84a5f51a26a20e1292d5df1.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/dartLogo.svg": "/portfolio/static/media/dartLogo.ab1cec15270604d7930f30d19203f886.svg",
+    "static/media/htmlLogo.svg": "/portfolio/static/media/htmlLogo.316f2a6454a4b296a52bb672f14ccc27.svg",
+    "static/media/flutterLogo.svg": "/portfolio/static/media/flutterLogo.9eec95c1fffd93cba12beaf7b24b7802.svg",
+    "static/media/liveLogo.svg": "/portfolio/static/media/liveLogo.e431ae5b7cf36d699bc400a5addc0c91.svg",
+    "static/media/selectionLogo.svg": "/portfolio/static/media/selectionLogo.1995348c5dc43da2ef931b1212dc5fd1.svg",
+    "main.72cef61e.css.map": "/portfolio/static/css/main.72cef61e.css.map",
+    "main.69746f4e.js.map": "/portfolio/static/js/main.69746f4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72cef61e.css",
+    "static/js/main.69746f4e.js"
+  ]
+}

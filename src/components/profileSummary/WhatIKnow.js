@@ -22,7 +22,7 @@ export default function WhatIKnow() {
         <div className="cols">
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -39,7 +39,7 @@ export default function WhatIKnow() {
           </div>
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -56,7 +56,7 @@ export default function WhatIKnow() {
           </div>{" "}
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -73,7 +73,7 @@ export default function WhatIKnow() {
           </div>{" "}
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -90,7 +90,7 @@ export default function WhatIKnow() {
           </div>{" "}
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -107,7 +107,7 @@ export default function WhatIKnow() {
           </div>{" "}
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -124,7 +124,7 @@ export default function WhatIKnow() {
           </div>{" "}
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -141,7 +141,7 @@ export default function WhatIKnow() {
           </div>{" "}
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -158,7 +158,7 @@ export default function WhatIKnow() {
           </div>{" "}
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -175,7 +175,7 @@ export default function WhatIKnow() {
           </div>{" "}
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -192,7 +192,7 @@ export default function WhatIKnow() {
           </div>{" "}
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -209,7 +209,7 @@ export default function WhatIKnow() {
           </div>
           <div
             className="col"
-            onTouchStart={() => this.classList.toggle("hover")}
+            onTouchStart={(event) => event.target.classList.toggle("hover")}
           >
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
@@ -224,7 +224,7 @@ export default function WhatIKnow() {
               </div>
             </div>
           </div>
-          <div className="col" onTouchStart={() => this.classList.toggle("hover")}>
+          <div className="col" onTouchStart={(event) => event.target.classList.toggle("hover")}>
             <div className="container">
               <div className="front" style={{ backgroundColor: "black" }}>
                 <div className="inner">

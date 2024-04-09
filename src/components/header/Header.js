@@ -12,7 +12,7 @@ export default function Header() {
         <img src={ascLogo} alt="ascLogo" className="ascLogo"/>
       </a>
       <div className="routesDiv">
-        <a className="routes"  href={Resume} down
+        <a className="routes"  href={Resume} down={"true"}
           target="_blank">Resume</a>
         <a className="routes" href={"mailto:"+email} target="_blank">Contact</a>
       </div>

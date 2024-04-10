@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.72cef61e.css",
-    "main.js": "/static/js/main.6a352a03.js",
+    "main.css": "/static/css/main.baf1a23c.css",
+    "main.js": "/static/js/main.ddff9b55.js",
     "static/media/asc_logo_1024x682.jpg": "/static/media/asc_logo_1024x682.081399545c19759587e8.jpg",
     "static/media/Anant's_Resume_Apr24.pdf": "/static/media/Anant's_Resume_Apr24.b2b2493c96fecd9c8de7.pdf",
     "static/media/profilePic.jpg": "/static/media/profilePic.06e5ee0e2639fde61c11.jpg",
-    "static/media/siemens.png": "/static/media/siemens.cf4d089c445b16599459.png",
     "static/media/dotNetLogo2.svg": "/static/media/dotNetLogo2.24534be055fb71e8559a9d8cbe14485c.svg",
+    "static/media/siemens.png": "/static/media/siemens.6a3a6ab931b141f77e81.png",
     "static/media/sqlServerLogo.svg": "/static/media/sqlServerLogo.df6bd6fc58b756123c7b2c36753991b7.svg",
-    "static/media/expressLogo.svg": "/static/media/expressLogo.198940719948b28f7b1207ca985c9edd.svg",
+    "static/media/expressLogo.svg": "/static/media/expressLogo.680c415925cb7019ee64e3919276a9de.svg",
     "static/media/mongoLogo.svg": "/static/media/mongoLogo.584dc799734f6f91f9ddd97cbc36c533.svg",
     "static/media/nodeLogo.svg": "/static/media/nodeLogo.ffb99e4f2ff0cc419a08f0aca617527c.svg",
     "static/media/reactLogo.svg": "/static/media/reactLogo.b092ad79d6b9f2bf199975b337138927.svg",
@@ -19,16 +19,16 @@
     "static/media/linkedInLogo.svg": "/static/media/linkedInLogo.847827ffa4400bcbf89dc160a21daef0.svg",
     "static/media/githubLogo.svg": "/static/media/githubLogo.ddebc412a84a5f51a26a20e1292d5df1.svg",
     "index.html": "/index.html",
-    "static/media/dartLogo.svg": "/static/media/dartLogo.ab1cec15270604d7930f30d19203f886.svg",
-    "static/media/htmlLogo.svg": "/static/media/htmlLogo.316f2a6454a4b296a52bb672f14ccc27.svg",
-    "static/media/flutterLogo.svg": "/static/media/flutterLogo.9eec95c1fffd93cba12beaf7b24b7802.svg",
+    "static/media/dartLogo.svg": "/static/media/dartLogo.bb085ba08490b78acce50d4ac0d0e2d8.svg",
+    "static/media/htmlLogo.svg": "/static/media/htmlLogo.7d0736a22e155a625c44bad59e8da898.svg",
+    "static/media/flutterLogo.svg": "/static/media/flutterLogo.3bacec87ee75aab23534b429ce3eb41d.svg",
     "static/media/liveLogo.svg": "/static/media/liveLogo.e431ae5b7cf36d699bc400a5addc0c91.svg",
     "static/media/selectionLogo.svg": "/static/media/selectionLogo.1995348c5dc43da2ef931b1212dc5fd1.svg",
-    "main.72cef61e.css.map": "/static/css/main.72cef61e.css.map",
-    "main.6a352a03.js.map": "/static/js/main.6a352a03.js.map"
+    "main.baf1a23c.css.map": "/static/css/main.baf1a23c.css.map",
+    "main.ddff9b55.js.map": "/static/js/main.ddff9b55.js.map"
   },
   "entrypoints": [
-    "static/css/main.72cef61e.css",
-    "static/js/main.6a352a03.js"
+    "static/css/main.baf1a23c.css",
+    "static/js/main.ddff9b55.js"
   ]
 }

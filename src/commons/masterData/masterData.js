@@ -156,8 +156,8 @@ const SelfProjects = [
       "Explore a showcase of interactive projects, all meticulously crafted with the latest technologies, awaiting your exploration.",
     ],
     buildYear: 2024,
-    liveLink: "",
-    githubLink: "",
+    liveLink: "https://anantchauhan.in/",
+    githubLink: "https://github.com/Anant-Singh-Chauhan/portfolio",
     toolsUsed: ["ReactJs", "NodeJs", "CSS", "ContextApi"],
   },
 ];

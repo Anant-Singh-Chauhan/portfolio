@@ -13,11 +13,9 @@
 }
 
 .footer_images img{
-    /* height: 5rem; */
     margin: 1rem;
-
-    width:10%;
-    /* mix-blend-mode:color-dodge; */
+    width:15%;
+    min-width: 100px;
     border-radius: 1rem;
     aspect-ratio: 3/2;
     object-fit: contain;

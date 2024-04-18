@@ -22,9 +22,9 @@ const Experiences = [
       {
         projectTitle: "Nitara Farmer Web 2.0",
         projectContributions: [
-          "Working on Migration from ASP.NET to REACT, with additional design and feature upgrades.",
-          "Expecting a reduced load by 15%, adding on to UX.",
-          "Identified and resolved critical software bugs, while efficiently implementing change requests to enhance system functionality and meet stakeholder requirements.",
+          "Working on Migration from ASP.NET to REACT for refined responsiveness and UI interactions.",
+          "Expecting a 15% improved performance metrics with efficient rendering and smoother navigations.",
+          "Identified and resolved critical bugs in ASP.NET version, while efficiently implementing change requests to enhance system functionality and meet stakeholder requirements.",
           ,
         ],
       },
@@ -38,9 +38,9 @@ const Experiences = [
       {
         projectTitle: "Nitara Farmer Mobile 2.0",
         projectContributions: [
-          "Migrated the app from KOTLIN to FLUTTER for improved compatibility on Android and iOS platforms.",
+          "Migrated from Kotlin to Flutter for improved cross platform compatibility on Android and iOS platforms.",
           "Lead a team of 4 to work on specific modules",
-          "Enhanced code Maintainability, Led to fast rendering and smoother animations, adding on to user experience.",
+          "Resulted in Increased development efficiency and Streamlined maintenance and enhanced UX.",
         ],
       },
     ],

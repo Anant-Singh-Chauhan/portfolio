@@ -3,7 +3,7 @@ import UAParser from 'ua-parser-js';
 
 const loggerServiceURL = process.env.LOGGER_SVC_URL ?? 'http://localhost:3000/log'; // URL of your logger service
 
-export const logClientInfo = (logLevel, message) => {
+export const logClientInfo = (logLevel, message, errorDetails) => {
   // Capture client info using UAParser
   const parser = new UAParser();
   const browserInfo = parser.getResult();
@@ -19,7 +19,8 @@ export const logClientInfo = (logLevel, message) => {
     meta: {
       browser: browserInfo.browser.name,      
       os: browserInfo.os.name,                
-      ip: clientIP,                        
+      ip: clientIP,
+      errorDetails                 
     }
   };
 

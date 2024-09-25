@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.baf1a23c.css",
-    "main.js": "/static/js/main.a4fb3bae.js",
+    "main.js": "/static/js/main.ac41c61e.js",
     "static/media/asc_logo_1024x682.jpg": "/static/media/asc_logo_1024x682.081399545c19759587e8.jpg",
     "static/media/Anant's_Resume_Apr24.pdf": "/static/media/Anant's_Resume_Apr24.06e434d0ed7ae6c78aa5.pdf",
     "static/media/profilePic.jpg": "/static/media/profilePic.06e5ee0e2639fde61c11.jpg",
@@ -25,10 +25,10 @@
     "static/media/liveLogo.svg": "/static/media/liveLogo.e431ae5b7cf36d699bc400a5addc0c91.svg",
     "static/media/selectionLogo.svg": "/static/media/selectionLogo.1995348c5dc43da2ef931b1212dc5fd1.svg",
     "main.baf1a23c.css.map": "/static/css/main.baf1a23c.css.map",
-    "main.a4fb3bae.js.map": "/static/js/main.a4fb3bae.js.map"
+    "main.ac41c61e.js.map": "/static/js/main.ac41c61e.js.map"
   },
   "entrypoints": [
     "static/css/main.baf1a23c.css",
-    "static/js/main.a4fb3bae.js"
+    "static/js/main.ac41c61e.js"
   ]
 }

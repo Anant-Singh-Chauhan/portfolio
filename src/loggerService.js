@@ -1,7 +1,7 @@
 import axios from 'axios';
 import UAParser from 'ua-parser-js';
 
-const loggerServiceURL = process.env.LOGGER_SVC_URL ?? 'http://localhost:3000/log'; // URL of your logger service
+const loggerServiceURL = process.env.REACT_APP_LOGGER_SVC_URL; // URL of your logger service
 
 export const logClientInfo = (logLevel, message, errorDetails) => {
   // Capture client info using UAParser

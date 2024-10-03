@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import {ascLogo} from '../../assests/images/images';
-import Resume from '../../assests/Anant\'s_Resume_Apr24.pdf';
+import Resume from '../../assests/Anant\'s_Resume_Oct24.pdf';
 import { Profile } from "../../commons/masterData/masterData";
 
 export default function Header() {

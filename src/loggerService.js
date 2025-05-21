@@ -22,9 +22,11 @@ export const logClientInfo = async (logLevel, message, errorDetails) => {
   const logData = {
     level: logLevel, // e.g., 'info', 'error'
     message: message,
-    isDefault: false,
-    label: "Portfolio",
-    meta: {
+    project: "portfolio",
+    platform: browserInfo.os.name,
+    label: "  ",
+    user: "anonymous",
+    other: {
       browser: browserInfo.browser.name,
       os: browserInfo.os.name,
       ip: await fetchIP(),

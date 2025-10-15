@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.baf1a23c.css",
-    "main.js": "/static/js/main.f6fcd333.js",
+    "main.js": "/static/js/main.e9f80d1a.js",
     "static/media/asc_logo_1024x682.jpg": "/static/media/asc_logo_1024x682.081399545c19759587e8.jpg",
-    "static/media/Anant's_Resume_Oct24.pdf": "/static/media/Anant's_Resume_Oct24.2a2bc31b30c8d648688e.pdf",
-    "static/media/profilePic.jpg": "/static/media/profilePic.06e5ee0e2639fde61c11.jpg",
+    "static/media/profile.png": "/static/media/profile.4b66b97da09ab6fbe8e2.png",
+    "static/media/Anant's_Resume_Sept25.pdf": "/static/media/Anant's_Resume_Sept25.c5c1f6b44d252dd1c025.pdf",
     "static/media/dotNetLogo2.svg": "/static/media/dotNetLogo2.24534be055fb71e8559a9d8cbe14485c.svg",
     "static/media/siemens.png": "/static/media/siemens.6a3a6ab931b141f77e81.png",
     "static/media/sqlServerLogo.svg": "/static/media/sqlServerLogo.df6bd6fc58b756123c7b2c36753991b7.svg",
@@ -25,10 +25,10 @@
     "static/media/liveLogo.svg": "/static/media/liveLogo.e431ae5b7cf36d699bc400a5addc0c91.svg",
     "static/media/selectionLogo.svg": "/static/media/selectionLogo.1995348c5dc43da2ef931b1212dc5fd1.svg",
     "main.baf1a23c.css.map": "/static/css/main.baf1a23c.css.map",
-    "main.f6fcd333.js.map": "/static/js/main.f6fcd333.js.map"
+    "main.e9f80d1a.js.map": "/static/js/main.e9f80d1a.js.map"
   },
   "entrypoints": [
     "static/css/main.baf1a23c.css",
-    "static/js/main.f6fcd333.js"
+    "static/js/main.e9f80d1a.js"
   ]
 }

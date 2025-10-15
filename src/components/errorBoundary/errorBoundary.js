@@ -19,7 +19,7 @@ class ErrorBoundary extends React.Component {
     // Refresh the page after 10 seconds
     setTimeout(() => {
         window.location.reload();
-      }, 10000);
+      }, 2000);
   }
 
   render() {
@@ -27,7 +27,7 @@ class ErrorBoundary extends React.Component {
       // You can render any custom fallback UI
       return (
         <div>
-          <h1>Something went wrong. The page will refresh in 10 seconds.</h1>
+          <h1>Something went wrong. The page will refresh in 2 seconds.</h1>
         </div>
       );
     }

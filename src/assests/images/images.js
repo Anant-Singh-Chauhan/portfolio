@@ -11,7 +11,7 @@
 // profile images export
 export {default as ascLogo} from './profile/asc_logo_1024x682.jpg';
 export {default as avatar} from './profile/avatar.jpg';
-export {default as profilePic} from './profile/profilePic.jpg';
+export {default as profilePic} from './profile/profile.png';
 
 // collabs
 export {default as hancock_logo} from './collabs/hancock.png';
